@@ -24,7 +24,7 @@ API REST que proporciona endpoints para calcular áreas de diferentes figuras ge
 
 1. Clonar el repositorio:
 ```bash
-git clone https://github.com/tu-usuario/calculadoras.git
+git clone https://github.com/jerrya345/calculadoras.git
 ```
 
 2. Navegar al directorio del proyecto:
@@ -66,4 +66,4 @@ https://localhost:5001/swagger
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles. 
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
