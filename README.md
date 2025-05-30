@@ -1,21 +1,13 @@
-# Calculadora de Áreas y Volúmenes API
+# Calculadora de Áreas API
 
-API REST que proporciona endpoints para calcular áreas y volúmenes de diferentes figuras geométricas.
+API REST que proporciona endpoints para calcular áreas de diferentes figuras geométricas.
 
 ## Características
 
-### Cálculo de Áreas
 - Cálculo de área de cuadrado
 - Cálculo de área de rectángulo
 - Cálculo de área de círculo
 - Cálculo de área de triángulo
-
-### Cálculo de Volúmenes
-- Cálculo de volumen de cubo
-- Cálculo de volumen de prisma rectangular
-- Cálculo de volumen de esfera
-- Cálculo de volumen de cilindro
-- Cálculo de volumen de pirámide
 
 ## Tecnologías Utilizadas
 
@@ -59,18 +51,10 @@ https://localhost:5001/swagger
 
 ### Endpoints Disponibles
 
-#### Cálculo de Áreas
 - `GET /api/CalculadoraAreas/cuadrado?lado={valor}`
 - `GET /api/CalculadoraAreas/rectangulo?base={valor}&altura={valor}`
 - `GET /api/CalculadoraAreas/circulo?radio={valor}`
 - `GET /api/CalculadoraAreas/triangulo?base={valor}&altura={valor}`
-
-#### Cálculo de Volúmenes
-- `GET /api/CalculadoraVolumenes/cubo?lado={valor}`
-- `GET /api/CalculadoraVolumenes/prisma-rectangular?largo={valor}&ancho={valor}&alto={valor}`
-- `GET /api/CalculadoraVolumenes/esfera?radio={valor}`
-- `GET /api/CalculadoraVolumenes/cilindro?radio={valor}&altura={valor}`
-- `GET /api/CalculadoraVolumenes/piramide?base={valor}&altura={valor}`
 
 ## Contribución
 

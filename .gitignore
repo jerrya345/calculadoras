@@ -1,3 +1,26 @@
+# Ignorar todo
+*
+
+# No ignorar estos archivos/directorios
+!Controllers/
+!*.csproj
+!*.sln
+!.gitignore
+!README.md
+!Program.cs
+!appsettings.json
+!appsettings.Development.json
+
+# Ignorar archivos específicos dentro de Controllers
+Controllers/*.user
+Controllers/*.userosscache
+Controllers/*.suo
+Controllers/*.userprefs
+Controllers/*.dll
+Controllers/*.exe
+Controllers/*.pdb
+Controllers/*.cache
+
 # .NET build output
 bin/
 obj/
